@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Registration Form</title>
+    <link rel="stylesheet" href="styles.css">
+ </head>
+ <body>
+    <div class="container">
+        <h2>Online Patient Registration Form</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="full_name">Full Name:</label>
+            <input type="text" id="full_name" name="full_name" required>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="">Select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="address">Address:</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+            <label for="medical_history">Medical History:</label>
+            <textarea id="medical_history" name="medical_history" rows="4"></textarea>
+            <label for="insurance">Insurance Number (if any):</label>
+            <input type="text" id="insurance" name="insurance">
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <a href="https:// new hospital .com "> This is a link </a>
+ </body>
+ </html
